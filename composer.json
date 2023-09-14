@@ -1,0 +1,24 @@
+{
+    "name": "hexlet/code",
+    "description": "Page Analyzer is a full-fledged application based on the Slim framework. Here we practice basic principles of building modern sites on MVC-architecture: working with routing, request handlers and templating, interaction with the database.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mgrshn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"App\\": "public/"},
+        "files": [
+        ]
+      },
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.6"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    }
+}
