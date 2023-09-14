@@ -36,6 +36,3 @@ jobs:
 
       - name: Lint
         run: make lint
-
-      - name: Start
-        run: make start
