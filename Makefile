@@ -4,4 +4,6 @@ start:
 install:
 	composer install
 lint:
-	composer exec --verbose phpcs -- --standard=PSR12
+	composer exec --verbose phpcs -- --standard=PSR12 public
+lint-fix:
+	./vendor/bin/phpcbf public

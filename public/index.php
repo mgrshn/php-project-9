@@ -22,8 +22,11 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 $app = AppFactory::create();
 
 $app->get(
-    '/', function (
-        Request $request, Response $response, $args
+    '/',
+    function (
+        Request $request,
+        Response $response,
+        $args
     ) {
         $response->getBody()->write("Here is starting page");
         return $response;
